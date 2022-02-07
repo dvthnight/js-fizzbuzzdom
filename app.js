@@ -2,6 +2,8 @@
 
 for(let i = 1; i<=100; i++){
     const li = document.createElement("li");
+
+    li.classList.add("square");
     
     console.log(i);
 
@@ -20,5 +22,7 @@ for(let i = 1; i<=100; i++){
     const lista = document.getElementById("lista");
 
     lista.append(li);
+
+
 
 }

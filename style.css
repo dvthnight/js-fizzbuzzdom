@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: contents ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+}
+
+body{
+    background-color: rgb(19, 49, 62);
+}
+
+.container{
+    width: 935px;
+    margin: 0 auto;
+}
+
+.square{
+    width: 110px;
+    height: 110px;
+    background-color: rgb(43, 125, 165);
+    line-height: 110px;
+    text-align: center;
+}
