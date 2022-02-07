@@ -41,3 +41,15 @@ body{
     line-height: 110px;
     text-align: center;
 }
+
+.buzz{
+    background-color: rgb(252, 203, 106);
+}
+
+.fizz{
+    background-color: rgb(74, 203, 154);
+}
+
+.fizzbuzz{
+    background-color: rgb(224, 76, 101);
+}

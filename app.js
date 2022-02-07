@@ -9,10 +9,13 @@ for(let i = 1; i<=100; i++){
 
     if(i % 3 === 0 && i % 5 === 0){
         li.append("fizzbuzz");
+        li.classList.add("fizzbuzz");
     } else if(i % 3 ===0){
         li.append("fizz");
+        li.classList.add("fizz");
     } else if(i % 5 === 0){
         li.append("buzz");
+        li.classList.add("buzz")
     } else {
         li.append(i);
     }
